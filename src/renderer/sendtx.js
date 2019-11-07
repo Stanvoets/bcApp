@@ -5,7 +5,7 @@ const addressBook = new kvStore({name: 'address-book'})
 
 function init() {
     let confirmPassPopup = document.getElementById('password-confirm')
-    let sendTxSubmit = document.querySelector('#password-confirm  .form-submit')
+    // let sendTxSubmit = document.querySelector('#password-confirm  .form-submit')
     let form = document.getElementById('form--send-tx')
     let addressInput = document.querySelector(`#${form.id} .form-item--address input`)
     let errMsgElm = form.querySelector('.err-msg')

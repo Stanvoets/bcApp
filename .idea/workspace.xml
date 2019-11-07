@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef977d97-2798-40d0-a7aa-d536fc9b1faf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/components/r-password-confirm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bank/sendTx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/sendTx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blockchain/sync.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/blockchain/sync.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmd/stancli.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmd/stancli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmd/stand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmd/stand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/password-confirm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/password-confirm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/debug.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/debug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/sendtx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/sendtx.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,25 +44,26 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/css/fonts" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cmd" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/cmd/bin" />
       <recent name="C:\Users\stanv\Desktop\js\bc-app-react\src\renderer" />
       <recent name="C:\Users\stanv\Desktop\js\bc-app-react\src\renderer\components" />
       <recent name="C:\Users\stanv\Desktop\js\bc-app-react\src" />
-      <recent name="C:\Users\stanv\Desktop\js\bc-app-react\src\css\fonts" />
-      <recent name="C:\Users\stanv\Desktop\js\bc-app-react\src\renderer\r-components\section" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/cmd" />
       <recent name="C:\Users\stanv\Desktop\js\bc-app-react\src\css\fonts" />
       <recent name="C:\Users\stanv\Desktop\js\bc-app-react\src" />
       <recent name="C:\Users\stanv\Desktop\js\bc-app-react\src\css" />
       <recent name="C:\Users\stanv\Desktop\js\bc-app-react\fonts" />
-      <recent name="C:\Users\stanv\Desktop\js\bc-app-react" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -82,6 +96,9 @@
       <workItem from="1573048195812" duration="6132000" />
       <workItem from="1573061176760" duration="19115000" />
       <workItem from="1573119302092" duration="4402000" />
+      <workItem from="1573125056299" duration="907000" />
+      <workItem from="1573126055623" duration="2118000" />
+      <workItem from="1573136204798" duration="4286000" />
     </task>
     <servers />
   </component>

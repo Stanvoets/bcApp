@@ -1,7 +1,7 @@
 const { ipcMain } = require('electron')
 const stancli = require('../cmd/stancli')
 
-function initFormListener(){
+function initListener(){
 
     // Handle form submit
     ipcMain.on('send-tx', (event, arg) => {
@@ -18,6 +18,6 @@ function initFormListener(){
 
 module.exports = {
     addFormListener: function () {
-        initFormListener()
+        initListener()
     }
 };

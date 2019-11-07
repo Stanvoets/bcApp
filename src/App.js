@@ -6,9 +6,9 @@ import updateWatcher from './renderer/update-watcher.js'
 import components from './renderer/component.js'
 import sendTx from './renderer/sendtx.js'
 import staking from './renderer/staking.js'
+import debug from './renderer/debug.js'
 
-
-// import logo from './logo.svg';
+// import logo from './logo.svg'
 import React from 'react';
 import Overview from './renderer/r-components/section/Overview'
 import './css/bootstrap.min.css'
@@ -30,6 +30,8 @@ class App extends React.Component {
     updateWatcher.init()
     sendTx.init()
     staking.init()
+
+    debug.init()
 }
 
   render() {
@@ -59,14 +61,14 @@ class App extends React.Component {
                   <div className="err-msg status-msg"></div>
                   <div className="form-item form-item--address form-item-icon form-item-icon--send">
                     <label htmlFor="address">Send to</label>
-                    <input id="address" type="text" placeholder="Address" required></input>
+                    <input id="address" type="text" placeholder="Address" required />
                       <div className="popup-trigger popup-trigger--address-book icon-btn icon-address-book"
                            stan-popup="address-book"></div>
                       <div className="address-book-annotation"></div>
                   </div>
                   <div className="form-item form-item--amount form-item-icon form-item-icon--currency">
                     <label htmlFor="amount">Amount</label>
-                    <input id="amount" type="number" placeholder="0.00" step="0.001" required></input>
+                    <input id="amount" type="number" placeholder="0.00" step="0.001" required />
                   </div>
                   <div className="gas-estimate">
                     <span className="label">Transaction fee:</span>

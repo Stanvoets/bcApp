@@ -2,8 +2,8 @@ const ProgressBar = require('../progressbar');
 const { exec } = require('child_process')
 const fs = require("fs")
 const path = require('path')
-const homedir = require('os').homedir()
 const stand = require('../cmd/stand')
+const homedir = require('os').homedir()
 let sync_process
 let progressBar
 

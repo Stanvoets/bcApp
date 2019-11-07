@@ -32,6 +32,8 @@ function sendTxFormSubmit(){
     let amount = form.querySelector('.form-item--amount input').value
     let password = confirmPassForm.querySelector('.form-item--password input').value
 
+    console.log('form submit -> send-tx event fired')
+
     // Process tx
     ipcRenderer.send('send-tx', [address, amount, password])
 }
