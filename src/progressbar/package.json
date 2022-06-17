@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/Stanvoets/Electron-Wallet#readme",
   "devDependencies": {
-    "electron": "^1.7.5"
+    "electron": "^15.5.5"
   },
   "dependencies": {
     "extend": "^3.0.1"
